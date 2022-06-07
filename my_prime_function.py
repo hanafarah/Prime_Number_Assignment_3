@@ -1,7 +1,9 @@
 """
 Created prime.py -- Write the application code here
 
-This function will take a number and will ouput as a list of prime numbers.
+This function is called my_prime_function in which it will take a number and 
+
+will ouput as a list of prime numbers.
 
 """
 
@@ -13,7 +15,7 @@ def prime_number_factors(num):
     list_of_factors = []  # should be an empty list. Output will generate as a list
     dividing_factor = 2   # divisble factor to determine prime numbers
 
-    if isinstance(num, int):  # to determine if num is an int in order to pass through
+    if isinstance(num, int):  # to check if any num is an int in order to pass through
         while num > 1:
 
             if num % dividing_factor == 0:
