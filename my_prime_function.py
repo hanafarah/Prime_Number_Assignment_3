@@ -13,7 +13,7 @@ def prime_number_factors(num):
     This function will take a number and will ouput as a list of prime numbers.
     """
     list_of_factors = []  # should be an empty list. Output will generate as a list
-    dividing_factor = 2   # divisble factor to determine prime numbers
+    dividing_factor = 2   # divisble factor to check which numbers are prime
 
     if isinstance(num, int):  # to check if any num is an int in order to pass through
         while num > 1:
