@@ -11,7 +11,7 @@ def test_value_float_or_str_input():
     """
     Assert that if data type is a float or str, a ValueError is raised.
     """
-    with pytest.raises(ValueError'):
+    with pytest.raises(ValueError):
         raise ValueError('num value must be an int NOT float or str')
 
 
